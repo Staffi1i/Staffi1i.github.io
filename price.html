@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс-лист - SMotors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            flex: 1;
+        }
+        .logo {
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+        }
+        .promo {
+            background-color: #e2e2e2;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .products {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline; 
+            color: #f9b247; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMotors</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О Компании</a>
+        <a href="catalog.html">Каталог товаров</a>
+        <a href="price.html" class="active">Прайс-лист</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <div class="promo">
+            <h2>Прайс-лист услуг</h2>
+        </div>
+        <div class="products">
+            <table>
+                
+                <tr>
+                    <th>        </th>
+                    <th>Услуга</th>
+                    <th>Описание</th>
+                    <th>Цена</th>
+                </tr>
+                
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>1. Чип-тюнинг Stage 1</td>
+                    <td>Увеличение мощности двигателя за счет оптимизации программного обеспечения ECU (блок управления двигателем) под стандартные настройки. Подходит для большинства автомобилей без механических изменений.</td>
+                    <td>от 20 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>2. Чип-тюнинг Stage 2</td>
+                    <td>Более глубокая настройка ECU для автомобилей с установленными турбонагнетателями, интеркулерами или другими механическими изменениями. Позволяет достичь значительного прироста мощности.</td>
+                    <td>от 35 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>3. Установка турбокомпрессора</td>
+                    <td>Полный комплекс услуг по установке турбокомпрессора, включая все необходимые работы: установка турбины, интеркулера, замена выпускного коллектора и перепрошивка ECU.</td>
+                    <td>От 150 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>4. Настройка топливной системы</td>
+                    <td>Оптимизация топливной системы для обеспечения стабильной подачи топлива и достижения максимальной производительности. Включает установку форсунок, топливных насосов и регуляторов давления.</td>
+                    <td>от 25 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>5. Установка спортивного выхлопа</td>
+                    <td>Замена стандартной выхлопной системы на спортивную для улучшения звука и повышения производительности. В комплект входят прямоточный глушитель и трубы с увеличенным диаметром.</td>
+                    <td>от 45 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>6. Установка интеркулера</td>
+                    <td>Установка высокоэффективного интеркулера для снижения температуры воздуха, поступающего в двигатель, что увеличивает мощность и продлевает срок службы турбонагнетателя.</td>
+                    <td>от 30 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>7. Программная оптимизация коробки передач (TCU тюнинг)</td>
+                    <td>Настройка трансмиссии для более быстрого и плавного переключения передач, уменьшения задержек и повышения отклика автомобиля на ускорение.</td>
+                    <td>от 18 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>8. Замена выхлопного коллектора</td>
+                    <td>Замена штатного выпускного коллектора на спортивный, что улучшает отвод выхлопных газов, увеличивает мощность двигателя и улучшает его звук.</td>
+                    <td>от 40 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>9. Комплексная диагностика и настройка двигателя</td>
+                    <td>Проведение полной диагностики всех систем двигателя с последующей настройкой для достижения максимальной эффективности работы. Включает тестирование на динамометрическом стенде.</td>
+                    <td>от 12 000 руб.</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="logo1.png" alt="Логотип компании" class="logo"> </td>
+                    <td>10. Установка спортивной подвески</td>
+                    <td>Полная замена стандартной подвески на спортивную для улучшения управляемости, повышения устойчивости на поворотах и улучшения динамики разгона и торможения.</td>
+                    <td>От 70 000 руб.</td>
+                </tr>
+            </table>
+        </div>  
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SMotors. Все права защищены.</p>
+    </footer>
+</body>
+</html>

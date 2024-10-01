@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О Компании - SMotors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            flex: 1;
+        }
+        .logo {
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+        }
+        .promo {
+            background-color: #e2e2e2;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .products {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline; 
+            color: #f9b247; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMototrs</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О Компании</a>
+        <a href="catalog.html" class="active">Каталог товаров</a>
+        <a href="price.html">Прайс-лист</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <div class="promo">
+            <h2>Каталог товаров SMotors</h2>
+        </div>
+        <div class="products">
+            <h3>
+                Чип-тюнинг и электронные компоненты
+            </h3>
+            <ul>
+                <li>Модуль чип-тюнинга Stage 1 – 15 000 руб.</li>
+                <li>Модуль чип-тюнинга Stage 2 – 25 000 руб.</li>
+                <li>Прошивка ECU (оптимизация под бензин 98/100) – 12 000 руб.</li>
+                <li>ECU-блок управления PRO для спортивных авто – 45 000 руб.</li>
+                <li>Диагностический кабель для настройки ECU – 3 500 руб.</li>
+            </ul>
+
+            <h3>
+                Системы наддува и турбокомплекты
+            </h3>
+            <ul>
+                <li>Турбокомпрессор Garrett GT2860RS – 90 000 руб.</li>
+                <li>Суперчарджер Vortech V3 – 150 000 руб.</li>
+                <li>Интеркулер Mishimoto (универсальный, большой) – 28 000 руб.</li>
+                <li>Комплект для установки турбонаддува (для двигателей 2.0-3.0 л) – 110 000 руб.</li>
+                <li>Клапан сброса давления (Blow-off valve) HKS SSQV4 – 14 000 руб.</li>
+            </ul>
+
+            <h3>
+                Топливные системы
+            </h3>
+            <ul>
+                <li>Форсунки увеличенного объема Bosch 1000cc – 12 000 руб. (за комплект)</li>
+                <li>Насос высокого давления Walbro 450 LPH – 18 000 руб.</li>
+                <li>Регулятор давления топлива AEM – 8 000 руб.</li>
+                <li>Фильтр топлива высокого потока Aeromotive – 5 500 руб.</li>
+            </ul>
+
+            <h3>
+                Системы выхлопа
+            </h3>
+            <ul>
+                <li>Спортивная выхлопная система Akrapovic (нержавеющая сталь) – 95 000 руб.</li>
+                <li>Выхлопная система Magnaflow (каталитический конвертер) – 75 000 руб.</li>
+                <li>Глушитель прямоточный Borla S-Type – 20 000 руб.</li>
+                <li>Комплект Downpipe (для двигателей с турбонаддувом) – 22 000 руб.</li>
+                <li>Наконечник выхлопной трубы из карбона Akrapovic – 8 000 руб.</li>
+            </ul>
+            
+            <h3>
+                Охлаждение и интеркулеры
+            </h3>
+            <ul>
+                <li>Радиатор охлаждения Mishimoto Performance – 32 000 руб.</li>
+                <li>Масляный радиатор Setrab ProLine – 18 000 руб.</li>
+                <li>Электрический вентилятор Spal (с высоким потоком воздуха) – 6 500 руб.</li>
+            </ul>
+
+            <h3>
+                Прочие компоненты для тюнинга
+            </h3>
+            <ul>
+                <li>Фильтр воздушного потока K&N High-Flow – 7 000 руб.</li>
+                <li>Коллектор выпускной Invidia для турбированных двигателей – 25 000 руб.</li>
+                <li>Комплект спортивных свечей зажигания NGK Iridium IX – 4 500 руб. (за комплект).</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SMotors. Все права защищены.</p>
+    </footer>
+</body>
+</html>

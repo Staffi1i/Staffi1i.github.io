@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тюнинг Двигателей - SMotors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            flex: 1; /* контейнер занимает оставшееся пространство */
+            display: flex; /*гибкая верстка */
+            flex-direction: column; /* элементы вертикально */
+        }
+        .logo {
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+        }
+        .promo {
+            background-color: #e2e2e2;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .products {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden; 
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline; 
+            color: #f9b247; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMotors</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О Компании</a>
+        <a href="catalog.html">Каталог товаров</a>
+        <a href="price.html">Прайс-лист</a>
+        <a href="contact.html" class="active">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <div class="promo">
+            <h2>Контактная информация SMotors</h2>
+        </div>
+        <div claass="products">
+            <p> Адрес: ул. Днепропетровская, 52В, Ростов-на-Дону, Ростовская обл., 344093</p>
+            <br>
+            <p>Телефон: 
+                <p>+7 (495) 123-45-67</p>
+                <p>+7 (800) 555-35-35 (бесплатно по России)</p>
+            </p>
+            <br>
+            <p>
+                Электронная почта: 
+                <p>info@smotors.ru</p>
+                <p>support@smotors.ru (для технических вопросов)</p>
+            </p>
+            <br>
+            <p>Режим работы: </p>
+            <ul>
+                <li>Понедельник - Пятница: 9:00 - 19:00</li>
+                <li>Суббота: 10:00 - 17:00</li>
+                <li>Воскресенье: выходной</li>
+            </ul>
+            <br>
+            <p>
+                Социальные сети: 
+            </p>
+            <ul>
+                <li>Instagram: @smotors_official</li>
+                <li>Facebook: SMotors Russia</li>
+                <li>VK: SMotors</li>
+            </ul>
+        
+        </div>
+        <div class="map-container">
+            <h3>Наше местоположение</h3>
+            <p>Вы можете найти нас по следующему адресу:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771238.5007431516!2d34.926938512499994!3d47.2891791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b75e0c6a892d%3A0xefb6ba9af10f42ec!2sS-motors!5e0!3m2!1sru!2sru!4v1727263545293!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SMotors. Все права защищены.</p>
+    </footer>
+</body>
+</html>
